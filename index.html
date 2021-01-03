@@ -60,7 +60,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 
 <!--~~ Static styles ~~-->
 <div id="styleArea">
-<style data-tiddler-bag="default" data-tiddler-revision="0" data-tiddler-title="$:/boot/boot.css" data-tiddler-type="text/css" data-tiddler-revision="0" data-tiddler-bag="default" type="text/css">/*
+<style data-tiddler-bag="default" data-tiddler-revision="0" data-tiddler-title="$:/boot/boot.css" data-tiddler-type="text/css" type="text/css">/*
 Basic styles used before we boot up the parsing engine
 */
 
@@ -153,11 +153,23 @@ Error message and password prompt
 
 <li>$:/DefaultTiddlers</li>
 
+<li>$:/GitHub/Branch</li>
+
+<li>$:/GitHub/Filename</li>
+
+<li>$:/GitHub/Path</li>
+
+<li>$:/GitHub/Repo</li>
+
+<li>$:/GitHub/Username</li>
+
 <li>$:/isEncrypted</li>
 
 <li>$:/palette</li>
 
 <li>$:/plugins/tiddlywiki/highlight</li>
+
+<li>$:/state/folded/$:/ControlPanel</li>
 
 <li>$:/state/folded/Universe</li>
 
@@ -180,6 +192,8 @@ Error message and password prompt
 <li>$:/status/UserName</li>
 
 <li>$:/StoryList</li>
+
+<li>$:/temp/info-plugin</li>
 
 <li>$:/theme</li>
 
@@ -251,19 +265,19 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div created="20201216170027933" creator="jordanemedlock" modified="20201216170028257" modifier="jordanemedlock" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216170027933" creator="jordanemedlock" modified="20201216170028257" modifier="jordanemedlock" revision="0" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal" type="text/vnd.tiddlywiki">
 <pre>show</pre>
 </div>
-<div created="20201216165935847" creator="jordanemedlock" modified="20201216165936164" modifier="jordanemedlock" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216165935847" creator="jordanemedlock" modified="20201216165936164" modifier="jordanemedlock" revision="0" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold" type="text/vnd.tiddlywiki">
 <pre>show</pre>
 </div>
-<div created="20201216165928647" creator="jordanemedlock" modified="20201216165928656" modifier="jordanemedlock" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold-others" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216165928647" creator="jordanemedlock" modified="20201216165928656" modifier="jordanemedlock" revision="0" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold-others" type="text/vnd.tiddlywiki">
 <pre>show</pre>
 </div>
-<div created="20201216165914343" creator="jordanemedlock" modified="20201216165914666" modifier="jordanemedlock" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-journal-here" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216165914343" creator="jordanemedlock" modified="20201216165914666" modifier="jordanemedlock" revision="0" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-journal-here" type="text/vnd.tiddlywiki">
 <pre>show</pre>
 </div>
-<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22" revision="0" bag="default">
+<div author="JeremyRuston" bag="default" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" revision="0" title="$:/core" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/Acknowledgements&quot;: {
@@ -9636,17 +9650,32 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20201216165719596" creator="jordanemedlock" modified="20201216165723235" modifier="jordanemedlock" title="$:/DefaultTiddlers" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216165719596" creator="jordanemedlock" modified="20201216165723235" modifier="jordanemedlock" revision="0" title="$:/DefaultTiddlers" type="text/vnd.tiddlywiki">
 <pre>Universe simulator
 </pre>
 </div>
-<div title="$:/isEncrypted" revision="0" bag="default">
+<div created="20210103174354907" modified="20210103174355326" title="$:/GitHub/Branch">
+<pre>main</pre>
+</div>
+<div created="20210103174706839" modified="20210103174708735" title="$:/GitHub/Filename">
+<pre>index.html</pre>
+</div>
+<div created="20210103174703758" modified="20210103174703758" title="$:/GitHub/Path">
+<pre>/</pre>
+</div>
+<div created="20210103174343230" modified="20210103174352072" title="$:/GitHub/Repo">
+<pre>jordanemedlock/jordanemedlock.github.io</pre>
+</div>
+<div created="20210103173812123" modified="20210103173813864" title="$:/GitHub/Username">
+<pre>jordanemedlock</pre>
+</div>
+<div bag="default" revision="0" title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20201216165837391" creator="jordanemedlock" modified="20201216165906239" modifier="jordanemedlock" title="$:/palette" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216165837391" creator="jordanemedlock" modified="20201216165906239" modifier="jordanemedlock" revision="0" title="$:/palette" type="text/vnd.tiddlywiki">
 <pre>$:/palettes/Twilight</pre>
 </div>
-<div author="Joao Bolila" dependents="" description="Highlight.js syntax highlighting" list="readme usage howto license" name="Highlight" plugin-type="plugin" title="$:/plugins/tiddlywiki/highlight" type="application/json" version="5.1.22" revision="0" bag="default">
+<div author="Joao Bolila" bag="default" dependents="" description="Highlight.js syntax highlighting" list="readme usage howto license" name="Highlight" plugin-type="plugin" revision="0" title="$:/plugins/tiddlywiki/highlight" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/plugins/tiddlywiki/highlight/highlight.js&quot;: {
@@ -9716,43 +9745,104 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20210103161846551" modified="20210103161846551" title="$:/state/folded/Universe" revision="1" bag="default">
+<div created="20210103174509558" modified="20210103174600232" title="$:/state/folded/$:/ControlPanel">
+<pre>show</pre>
+</div>
+<div bag="default" created="20210103161846551" modified="20210103161846551" revision="1" title="$:/state/folded/Universe">
 <pre>hide</pre>
 </div>
-<div created="20210103162051246" modified="20210103162051246" title="$:/state/showeditpreview" revision="1" bag="default">
+<div bag="default" created="20210103162051246" modified="20210103162051246" revision="1" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20210103173123015" modified="20210103173151685" title="$:/state/tab-1749438307" revision="5" bag="default">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div bag="default" created="20210103173123015" modified="20210103174657006" revision="5" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20210103173126859" modified="20210103173141423" title="$:/state/tab-2065006209" revision="7" bag="default">
+<div bag="default" created="20210103173126859" modified="20210103174720840" revision="7" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
-<div created="20210103161838453" modified="20210103173157613" title="$:/state/tab/sidebar--595412856" revision="3" bag="default">
-<pre>$:/core/ui/SideBar/Tools</pre>
+<div bag="default" created="20210103161838453" modified="20210103174513640" revision="3" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div title="$:/status/IsAnonymous" revision="1" bag="default">
+<div bag="default" revision="1" title="$:/status/IsAnonymous">
 <pre>yes</pre>
 </div>
-<div title="$:/status/IsLoggedIn" revision="2" bag="default">
+<div bag="default" revision="2" title="$:/status/IsLoggedIn">
 <pre>yes</pre>
 </div>
-<div title="$:/status/IsReadOnly" revision="1" bag="default">
+<div bag="default" revision="1" title="$:/status/IsReadOnly">
 <pre>no</pre>
 </div>
-<div title="$:/status/RequireReloadDueToPluginChange" revision="0" bag="default">
+<div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div title="$:/status/UserName" revision="1" bag="default">
+<div bag="default" revision="1" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div created="20210103161840840" list="$:/ControlPanel [[Master Record]] [[Universe simulator]] [[MVP Phases]] [[Initialize Environment]]" modified="20210103173119095" title="$:/StoryList" revision="12" bag="default">
+<div created="20210103173649834" list="[[Universe simulator]] [[Initialize Environment]] $:/ControlPanel Universe simulator" modified="20210103174523786" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20201216165811856" creator="jordanemedlock" modified="20201216165816384" modifier="jordanemedlock" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/info/browser&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser&quot;,
+            &quot;text&quot;: &quot;yes&quot;
+        },
+        &quot;$:/info/node&quot;: {
+            &quot;title&quot;: &quot;$:/info/node&quot;,
+            &quot;text&quot;: &quot;no&quot;
+        },
+        &quot;$:/info/url/full&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/full&quot;,
+            &quot;text&quot;: &quot;https://jordanemedlock.github.io/&quot;
+        },
+        &quot;$:/info/url/host&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/host&quot;,
+            &quot;text&quot;: &quot;jordanemedlock.github.io&quot;
+        },
+        &quot;$:/info/url/hostname&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
+            &quot;text&quot;: &quot;jordanemedlock.github.io&quot;
+        },
+        &quot;$:/info/url/protocol&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
+            &quot;text&quot;: &quot;https:&quot;
+        },
+        &quot;$:/info/url/port&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/port&quot;,
+            &quot;text&quot;: &quot;&quot;
+        },
+        &quot;$:/info/url/pathname&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
+            &quot;text&quot;: &quot;/&quot;
+        },
+        &quot;$:/info/url/search&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/search&quot;,
+            &quot;text&quot;: &quot;&quot;
+        },
+        &quot;$:/info/url/origin&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/origin&quot;,
+            &quot;text&quot;: &quot;https://jordanemedlock.github.io&quot;
+        },
+        &quot;$:/info/browser/screen/width&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
+            &quot;text&quot;: &quot;3840&quot;
+        },
+        &quot;$:/info/browser/screen/height&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
+            &quot;text&quot;: &quot;2160&quot;
+        },
+        &quot;$:/info/browser/language&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser/language&quot;,
+            &quot;text&quot;: &quot;en-US&quot;
+        }
+    }
+}</pre>
+</div>
+<div bag="default" created="20201216165811856" creator="jordanemedlock" modified="20201216165816384" modifier="jordanemedlock" revision="0" title="$:/theme" type="text/vnd.tiddlywiki">
 <pre>$:/themes/tiddlywiki/snowwhite</pre>
 </div>
-<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.22" revision="0" bag="default">
+<div author="JeremyRuston" bag="default" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" revision="0" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/themes/tiddlywiki/snowwhite/base&quot;: {
@@ -9763,7 +9853,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="Basic theme" name="Vanilla" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/vanilla" type="application/json" version="5.1.22" revision="0" bag="default">
+<div author="JeremyRuston" bag="default" core-version="&gt;=5.0.0" dependents="" description="Basic theme" name="Vanilla" plugin-priority="0" plugin-type="theme" revision="0" title="$:/themes/tiddlywiki/vanilla" type="application/json" version="5.1.22">
 <pre>{
     &quot;tiddlers&quot;: {
         &quot;$:/themes/tiddlywiki/vanilla/base&quot;: {
@@ -9861,10 +9951,10 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20201216165822121" creator="jordanemedlock" modified="20201216165832599" modifier="jordanemedlock" title="$:/view" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216165822121" creator="jordanemedlock" modified="20201216165832599" modifier="jordanemedlock" revision="0" title="$:/view" type="text/vnd.tiddlywiki">
 <pre>pop</pre>
 </div>
-<div created="20201229030755512" modified="20201229030911120" title="Absorb Elements" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229030755512" modified="20201229030911120" revision="0" title="Absorb Elements" type="text/vnd.tiddlywiki">
 <pre>//1st-level abjuration//
 
 ; Casting Time
@@ -9880,7 +9970,7 @@ The spell captures some of the incoming energy, lessening its effect on you and 
 At Higher Levels. When you cast this spell using a spell slot of ''2nd ''level or higher, the extra damage increases by ''1d6 ''for each slot level above 1st.
 </pre>
 </div>
-<div created="20201229032951307" modified="20201229033200814" title="Barkskin" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229032951307" modified="20201229033200814" revision="0" title="Barkskin" type="text/vnd.tiddlywiki">
 <pre>//2nd-level transmutation//
 
 ; Casting Time
@@ -9895,12 +9985,12 @@ At Higher Levels. When you cast this spell using a spell slot of ''2nd ''level o
 You touch a willing creature. Until the spell ends, the target’s skin has a rough, bark-like appearance, and the target’s AC can’t be less than ''16'', regardless of what kind of armor it is wearing.
 </pre>
 </div>
-<div created="20201229024422712" modified="20201229030544983" title="Cantrips" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229024422712" modified="20201229030544983" revision="0" title="Cantrips" type="text/vnd.tiddlywiki">
 <pre>* [[Poison Spray]]
 * [[Thorn Whip]]
 * [[Thunderclap]]</pre>
 </div>
-<div created="20201229031020205" modified="20201229031504087" title="Cure Wounds" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229031020205" modified="20201229031504087" revision="0" title="Cure Wounds" type="text/vnd.tiddlywiki">
 <pre>''1st-level evocation''
 
 ; Casting Time
@@ -9916,10 +10006,10 @@ A creature you touch regains a number of hit points equal to ''1d8 ''+ your spel
 At Higher Levels. When you cast this spell using a spell slot of ''2nd ''level or higher, the healing increases by ''1d8 ''for each slot level above ''1st''.
 </pre>
 </div>
-<div created="20201229020202986" modified="20201229020401650" tags="" title="DND" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229020202986" modified="20201229020401650" revision="0" tags="" title="DND" type="text/vnd.tiddlywiki">
 <pre>[[George]]</pre>
 </div>
-<div created="20201229032114657" modified="20201229032425704" title="Entangle" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229032114657" modified="20201229032425704" revision="0" title="Entangle" type="text/vnd.tiddlywiki">
 <pre>//1st-level conjuration//
 
 ; Casting Time
@@ -9935,18 +10025,18 @@ Grasping weeds and vines sprout from the ground in a ''20-foot'' square starting
 A creature in the area when you cast the spell must succeed on a ''Strength ''saving throw or be restrained by the entangling plants until the spell ends. A creature restrained by the plants can use its action to make a ''Strength ''check against your spell save DC. On a success, it frees itself.
 </pre>
 </div>
-<div created="20201229030556487" modified="20201229030709702" title="First Level Spells" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229030556487" modified="20201229030709702" revision="0" title="First Level Spells" type="text/vnd.tiddlywiki">
 <pre>* [[Absorb Elements]]
 * [[Cure Wounds]]
 * [[Entangle]]
 * [[Thunderwave]]</pre>
 </div>
-<div created="20201229020408307" modified="20201229030456520" title="George" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229020408307" modified="20201229030456520" revision="0" title="George" type="text/vnd.tiddlywiki">
 <pre>* [[Stats]]
 * [[Spells]]
 * [[Transmutations]]</pre>
 </div>
-<div created="20201229034001205" modified="20201229034207310" title="Healing Spirit" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229034001205" modified="20201229034207310" revision="0" title="Healing Spirit" type="text/vnd.tiddlywiki">
 <pre>//2nd-level conjuration//
 
 ; Casting Time
@@ -9962,7 +10052,7 @@ You call forth a nature spirit to soothe the wounded. The intangible spirit appe
 At Higher Levels. When you cast this spell using a spell slot of ''3rd ''level or higher, the healing increases ''1d6 ''for each slot level above ''2nd''.
 </pre>
 </div>
-<div created="20201229034445452" modified="20201229035211047" title="Hold Person" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229034445452" modified="20201229035211047" revision="0" title="Hold Person" type="text/vnd.tiddlywiki">
 <pre>//2nd-level conjuration//
 
 ; Casting Time
@@ -9978,13 +10068,15 @@ You call forth a nature spirit to soothe the wounded. The intangible spirit appe
 At Higher Levels. When you cast this spell using a spell slot of ''3rd ''level or higher, the healing increases ''1d6 ''for each slot level above ''2nd''.
 </pre>
 </div>
-<div created="20201230013608725" modified="20210103164117406" title="Initialize Environment" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<div bag="default" created="20201230013608725" modified="20210103174547289" revision="1" title="Initialize Environment" type="text/vnd.tiddlywiki">
 <pre>* [[https://github.com/expipiplus1/vulkan]]
 * [[https://alain.xyz/blog/comparison-of-modern-graphics-apis]]
 * [[http://expipiplus1.github.io/vulkan/]]
-* [[https://github.com/jordanemedlock/universe_simulator.git]]</pre>
+* [[https://github.com/jordanemedlock/universe_simulator.git]]
+
+testing adding some changes</pre>
 </div>
-<div created="20201216164153938" modified="20201216164741799" title="location" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216164153938" modified="20201216164741799" revision="0" title="location" type="text/vnd.tiddlywiki">
 <pre>Probably going to need to create our own data type for location based on scale and convertible between each scale easily.  Although locations will generally only be used at 3 scales at once.  
 
 
@@ -9998,7 +10090,7 @@ Location {
 
 </pre>
 </div>
-<div created="20201229151750789" modified="20201229151850597" tags="" title="Master Record" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229151750789" modified="20201229151850597" revision="0" tags="" title="Master Record" type="text/vnd.tiddlywiki">
 <pre>Here I keep track of the root nodes of each project
 
 
@@ -10006,7 +10098,7 @@ Location {
 # [[Universe simulator]]
 </pre>
 </div>
-<div created="20201229151945883" modified="20210103163147708" title="MVP Phases" type="text/vnd.tiddlywiki" revision="1" bag="default">
+<div bag="default" created="20201229151945883" modified="20210103163147708" revision="1" title="MVP Phases" type="text/vnd.tiddlywiki">
 <pre>* [[Game Engine]]
 *# [[Initialize Environment]]
 *# [[Box on screen]]
@@ -10085,7 +10177,7 @@ Location {
 # Don't worry about cross platform support
 </pre>
 </div>
-<div created="20201229024619076" modified="20201229025544198" title="Poison Spray" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229024619076" modified="20201229025544198" revision="0" title="Poison Spray" type="text/vnd.tiddlywiki">
 <pre>//Conjuring cantrip//
 
 ; Casting Time
@@ -10104,7 +10196,7 @@ You extend your hand toward a creature you can see within range and project a pu
 At Higher Levels. This spell’s damage increases by ''1d12 ''when you reach ''5th ''level (''2d12''), ''11th ''level (''3d12''), and ''17th ''level (''4d12'').
 </pre>
 </div>
-<div created="20201216163145655" modified="20201216164730924" title="scale" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216163145655" modified="20201216164730924" revision="0" title="scale" type="text/vnd.tiddlywiki">
 <pre>I'm assuming that the units that we can use would be scientific units, use meters, kilometers milimeters etc.  But I'm not sure what the scale resolution should be.  I also need to remember the fact that I need to simulate this in 3 dimensions, which means that if the scale doubles in length, they will create 8 cubic subsections within it.  So if we use scale units of meters to kilometers then there will be 1000^3 subsections per scale.  But also if we just use 2^n as the scale then the scale of 1m vs 2m isnt all that different.
 
 Maybe we can use very fine scale measurements and skip a few scales for each [[simulation_layer]].  So we have one simulation layer at the 1m scale and another one at 1km and skip a bunch of scales in between.  We can still use those same scale calculations we will just skip over a few rungs each time we see different simulations layers.  
@@ -10120,19 +10212,19 @@ Scale {
 
 </pre>
 </div>
-<div created="20201229032837163" modified="20201229032922880" title="Second Level Spells" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229032837163" modified="20201229032922880" revision="0" title="Second Level Spells" type="text/vnd.tiddlywiki">
 <pre>* [[Barkskin]]
 * [[Healing Spirit]]
 * [[Hold Person]]
 * [[Pass Without Trace]]</pre>
 </div>
-<div created="20201216164901780" modified="20201216165422254" title="simulation_layer" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216164901780" modified="20201216165422254" revision="0" title="simulation_layer" type="text/vnd.tiddlywiki">
 <pre>This will be the function that calculates the [[world_state]] for a given [[scale]] and [[location]].  I want it to be entirely stateless that way it doesnt actually have to store anything.  Maybe we can have some calculations be cached (memoized) but otherwise I don't want this to be static or just a bunch of assets stored on disk.  We are going to need to be very precise with our RNG so that we can have a consistent world.  This might mean that we need a custom RNG.   
 
 
 Simulation layers will only be calculated when the user is viewing the world at the given scale.  Or neighboring scales, but yeah.  </pre>
 </div>
-<div created="20201229020900592" modified="20201229030521271" title="Spells" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229020900592" modified="20201229030521271" revision="0" title="Spells" type="text/vnd.tiddlywiki">
 <pre>* [[Cantrips]]
 # [[First Level Spells]]
 # [[Second Level Spells]]
@@ -10141,7 +10233,7 @@ Simulation layers will only be calculated when the user is viewing the world at 
 # [[Fifth Level Spells]]
 # [[Sixth Level Spells]]</pre>
 </div>
-<div created="20201229025745923" modified="20201229025925170" title="Thorn Whip" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229025745923" modified="20201229025925170" revision="0" title="Thorn Whip" type="text/vnd.tiddlywiki">
 <pre>//Transmutation cantrip//
 
 ; Casting Time
@@ -10157,7 +10249,7 @@ You create a long, vine-like whip covered in thorns that lashes out at your comm
 At Higher Levels. This spell’s damage increases by ''1d6 ''when you reach ''5th ''level (''2d6''), ''11th ''level (''3d6''), and ''17th ''level (''4d6'').
 </pre>
 </div>
-<div created="20201229030123820" modified="20201229030246966" title="Thunderclap" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229030123820" modified="20201229030246966" revision="0" title="Thunderclap" type="text/vnd.tiddlywiki">
 <pre>//Evocation cantrip//
 
 ; Casting Time
@@ -10172,7 +10264,7 @@ At Higher Levels. This spell’s damage increases by ''1d6 ''when you reach ''5t
 You create a burst of thunderous sound, which can be heard ''100 ''feet away. Each creature other than you within ''5 ''feet of you must make a ''Constitution ''saving throw. On a failed save, the creature takes ''1d6 ''thunder damage.
 At Higher Levels. The spell’s damage increases by ''1d6 ''when you reach ''5th ''level (''2d6''), ''11th ''level (''3d6''), and ''17th'' level (''4d6'').</pre>
 </div>
-<div created="20201229032554069" modified="20201229032758625" title="Thunderwave" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201229032554069" modified="20201229032758625" revision="0" title="Thunderwave" type="text/vnd.tiddlywiki">
 <pre>//1st-level evocation//
 
 ; Casting Time
@@ -10189,7 +10281,7 @@ In addition, unsecured objects that are completely within the area of effect are
 At Higher Levels. When you cast this spell using a spell slot of ''2nd ''level or higher, the damage increases by ''1d8 ''for each slot level above ''1st''.
 </pre>
 </div>
-<div created="20201216161001102" modified="20201229151928891" tags="game simulator grandplan code" title="Universe simulator" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216161001102" modified="20201229151928891" revision="0" tags="game simulator grandplan code" title="Universe simulator" type="text/vnd.tiddlywiki">
 <pre>I want to simulate the universe at many scales.  From million light-years to plank scale.  I want tiers of simulation, on logarithmic scales.  
 
 
@@ -10200,7 +10292,7 @@ The output of this simulation can have access to the tiers above and below in or
 
 [[MVP Phases]]</pre>
 </div>
-<div created="20201216162409768" modified="20201216165635282" title="world_state" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div bag="default" created="20201216162409768" modified="20201216165635282" revision="0" title="world_state" type="text/vnd.tiddlywiki">
 <pre>The world state in this context is all of the assets and entities needed to render to the screen.  this can be depenedent on the world [[scale]] and the larger scales world state and the smaller scales world states.  
 
 It would be nice to actually simulate this world.  I can use different data sources as world states, like an earth topo map and google earth satelite view to paint the globe and maybe some version of google earth for the buildings. 
@@ -10214,7 +10306,7 @@ In order for the world states to interact I think they could all have different 
 
 <!--~~ Library modules ~~-->
 <div id="libraryModules" style="display:none;">
-<script data-tiddler-bag="default" data-tiddler-library="yes" data-tiddler-revision="0" data-tiddler-title="$:/library/sjcl.js" data-tiddler-type="application/javascript" data-tiddler-revision="0" data-tiddler-bag="default" type="text/javascript">"use strict";var sjcl={cipher:{},hash:{},keyexchange:{},mode:{},misc:{},codec:{},exception:{corrupt:function(a){this.toString=function(){return"CORRUPT: "+this.message};this.message=a},invalid:function(a){this.toString=function(){return"INVALID: "+this.message};this.message=a},bug:function(a){this.toString=function(){return"BUG: "+this.message};this.message=a},notReady:function(a){this.toString=function(){return"NOT READY: "+this.message};this.message=a}}};
+<script data-tiddler-bag="default" data-tiddler-library="yes" data-tiddler-revision="0" data-tiddler-title="$:/library/sjcl.js" data-tiddler-type="application/javascript" type="text/javascript">"use strict";var sjcl={cipher:{},hash:{},keyexchange:{},mode:{},misc:{},codec:{},exception:{corrupt:function(a){this.toString=function(){return"CORRUPT: "+this.message};this.message=a},invalid:function(a){this.toString=function(){return"INVALID: "+this.message};this.message=a},bug:function(a){this.toString=function(){return"BUG: "+this.message};this.message=a},notReady:function(a){this.toString=function(){return"NOT READY: "+this.message};this.message=a}}};
 sjcl.cipher.aes=function(a){this.s[0][0][0]||this.O();var b,c,d,e,f=this.s[0][4],g=this.s[1];b=a.length;var h=1;if(4!==b&&6!==b&&8!==b)throw new sjcl.exception.invalid("invalid aes key size");this.b=[d=a.slice(0),e=[]];for(a=b;a<4*b+28;a++){c=d[a-1];if(0===a%b||8===b&&4===a%b)c=f[c>>>24]<<24^f[c>>16&255]<<16^f[c>>8&255]<<8^f[c&255],0===a%b&&(c=c<<8^c>>>24^h<<24,h=h<<1^283*(h>>7));d[a]=d[a-b]^c}for(b=0;a;b++,a--)c=d[b&3?a:a-4],e[b]=4>=a||4>b?c:g[0][f[c>>>24]]^g[1][f[c>>16&255]]^g[2][f[c>>8&255]]^g[3][f[c&
 255]]};
 sjcl.cipher.aes.prototype={encrypt:function(a){return t(this,a,0)},decrypt:function(a){return t(this,a,1)},s:[[[],[],[],[],[]],[[],[],[],[],[]]],O:function(){var a=this.s[0],b=this.s[1],c=a[4],d=b[4],e,f,g,h=[],k=[],l,n,m,p;for(e=0;0x100>e;e++)k[(h[e]=e<<1^283*(e>>7))^e]=e;for(f=g=0;!c[f];f^=l||1,g=k[g]||1)for(m=g^g<<1^g<<2^g<<3^g<<4,m=m>>8^m&255^99,c[f]=m,d[m]=f,n=h[e=h[l=h[f]]],p=0x1010101*n^0x10001*e^0x101*l^0x1010100*f,n=0x101*h[m]^0x1010100*m,e=0;4>e;e++)a[e][f]=n=n<<24^n>>>8,b[e][m]=p=p<<24^p>>>8;for(e=
@@ -10278,7 +10370,7 @@ b){var c={},d;for(d=0;d<b.length;d++)void 0!==a[b[d]]&&(c[b[d]]=a[b[d]]);return 
 </div>
 <!--~~ Boot kernel prologue ~~-->
 <div id="bootKernelPrefix" style="display:none;">
-<script data-tiddler-bag="default" data-tiddler-revision="0" data-tiddler-title="$:/boot/bootprefix.js" data-tiddler-type="application/javascript" data-tiddler-revision="0" data-tiddler-bag="default" type="text/javascript">/*\
+<script data-tiddler-bag="default" data-tiddler-revision="0" data-tiddler-title="$:/boot/bootprefix.js" data-tiddler-type="application/javascript" type="text/javascript">/*\
 title: $:/boot/bootprefix.js
 type: application/javascript
 
@@ -10401,7 +10493,7 @@ if(typeof(exports) === "undefined") {
 </div>
 <!--~~ Boot kernel ~~-->
 <div id="bootKernel" style="display:none;">
-<script data-tiddler-bag="default" data-tiddler-revision="0" data-tiddler-title="$:/boot/boot.js" data-tiddler-type="application/javascript" data-tiddler-revision="0" data-tiddler-bag="default" type="text/javascript">/*\
+<script data-tiddler-bag="default" data-tiddler-revision="0" data-tiddler-title="$:/boot/boot.js" data-tiddler-type="application/javascript" type="text/javascript">/*\
 title: $:/boot/boot.js
 type: application/javascript
 
