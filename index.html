@@ -10272,10 +10272,12 @@ You extend your hand toward a creature you can see within range and project a pu
 At Higher Levels. This spell’s damage increases by ''1d12 ''when you reach ''5th ''level (''2d12''), ''11th ''level (''3d12''), and ''17th ''level (''4d12'').
 </pre>
 </div>
-<div created="20210118184115891" modified="20210118184825827" title="Refactor #1">
+<div created="20210118184115891" modified="20210118185058145" title="Refactor #1">
 <pre>I need to make some decisions about what libraries to use and what objects.  I think we have like 10 options lol. 
 
-Fuck it I'm just going with OpenGL types. They are the output into opengl functions and they are perfectly fine to input.  So I can use other types internally in the library but everything in &quot;Main&quot; must have OpenGL types.  I can also create a standardized set of opengl imports so we can keep it clean with a qualified OpenGL import and a selective import.  </pre>
+Fuck it I'm just going with OpenGL types. They are the output into opengl functions and they are perfectly fine to input.  So I can use other types internally in the library but everything in &quot;Main&quot; must have OpenGL types and everything exported must either have built in HS types or OpenGL types.  I can also create a standardized set of opengl imports so we can keep it clean with a qualified OpenGL import and a selective import.  
+
+Scratch that, just unqualified OpenGL import.  (for now)</pre>
 </div>
 <div bag="default" created="20201216163145655" modified="20201216164730924" revision="0" title="scale" type="text/vnd.tiddlywiki">
 <pre>I'm assuming that the units that we can use would be scientific units, use meters, kilometers milimeters etc.  But I'm not sure what the scale resolution should be.  I also need to remember the fact that I need to simulate this in 3 dimensions, which means that if the scale doubles in length, they will create 8 cubic subsections within it.  So if we use scale units of meters to kilometers then there will be 1000^3 subsections per scale.  But also if we just use 2^n as the scale then the scale of 1m vs 2m isnt all that different.
