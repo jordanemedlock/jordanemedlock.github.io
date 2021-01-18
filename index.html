@@ -257,6 +257,8 @@ Error message and password prompt
 
 <li>Poison Spray</li>
 
+<li>Refactor #1</li>
+
 <li>scale</li>
 
 <li>Second Level Spells</li>
@@ -9792,8 +9794,8 @@ Error message and password prompt
 <div bag="default" created="20210103161846551" modified="20210103161846551" revision="1" title="$:/state/folded/Universe">
 <pre>hide</pre>
 </div>
-<div bag="default" created="20210103162051246" modified="20210104175913075" revision="1" title="$:/state/showeditpreview">
-<pre>no</pre>
+<div bag="default" created="20210103162051246" modified="20210118184334565" revision="1" title="$:/state/showeditpreview">
+<pre>yes</pre>
 </div>
 <div created="20210104180133550" modified="20210104180141469" title="$:/state/sidebar">
 <pre>yes</pre>
@@ -9828,7 +9830,7 @@ Error message and password prompt
 <div bag="default" revision="1" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div created="20210118170547891" list="[[Master Record]] [[Universe simulator]] [[MVP Phases]] [[Box on screen]]" modified="20210118170917764" title="$:/StoryList">
+<div created="20210118170547891" list="[[Master Record]] [[Universe simulator]] [[MVP Phases]] [[Refactor #1]] [[Box on screen]]" modified="20210118184110830" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10269,6 +10271,11 @@ Location {
 You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a ''Constitution ''saving throw or take ''1d12 ''poison damage.
 At Higher Levels. This spell’s damage increases by ''1d12 ''when you reach ''5th ''level (''2d12''), ''11th ''level (''3d12''), and ''17th ''level (''4d12'').
 </pre>
+</div>
+<div created="20210118184115891" modified="20210118184825827" title="Refactor #1">
+<pre>I need to make some decisions about what libraries to use and what objects.  I think we have like 10 options lol. 
+
+Fuck it I'm just going with OpenGL types. They are the output into opengl functions and they are perfectly fine to input.  So I can use other types internally in the library but everything in &quot;Main&quot; must have OpenGL types.  I can also create a standardized set of opengl imports so we can keep it clean with a qualified OpenGL import and a selective import.  </pre>
 </div>
 <div bag="default" created="20201216163145655" modified="20201216164730924" revision="0" title="scale" type="text/vnd.tiddlywiki">
 <pre>I'm assuming that the units that we can use would be scientific units, use meters, kilometers milimeters etc.  But I'm not sure what the scale resolution should be.  I also need to remember the fact that I need to simulate this in 3 dimensions, which means that if the scale doubles in length, they will create 8 cubic subsections within it.  So if we use scale units of meters to kilometers then there will be 1000^3 subsections per scale.  But also if we just use 2^n as the scale then the scale of 1m vs 2m isnt all that different.
