@@ -235,6 +235,8 @@ Error message and password prompt
 
 <li>DND</li>
 
+<li>Draft of 'MVP Phases'</li>
+
 <li>Entangle</li>
 
 <li>First Level Spells</li>
@@ -272,6 +274,8 @@ Error message and password prompt
 <li>Second Level Spells</li>
 
 <li>simulation_layer</li>
+
+<li>Solar System</li>
 
 <li>Spells</li>
 
@@ -9838,7 +9842,7 @@ Error message and password prompt
 <div bag="default" revision="1" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div created="20210325221727029" list="[[Master Record]] [[Universe simulator]] [[MVP Phases]]" modified="20210325221729119" title="$:/StoryList">
+<div created="20210326183720906" list="[[Master Record]] [[Universe simulator]] [[Draft of 'MVP Phases']] [[Solar System]]" modified="20210326183832101" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10081,6 +10085,91 @@ At Higher Levels. When you cast this spell using a spell slot of ''2nd ''level o
 * [[Love Bot]]
 * [[Dean]]
 * [[Onua]]</pre>
+</div>
+<div bag="default" created="20201229151945883" draft.of="MVP Phases" draft.title="MVP Phases" modified="20210326183823300" revision="1" title="Draft of 'MVP Phases'" type="text/vnd.tiddlywiki">
+<pre>* [[Game Engine]]
+*# [[Initialize Environment]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/1]] 2021-01-04
+*# [[Box on screen]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/2]] 2021-01-12
+*# [[Google Earth API]] [X] [[PR|]] 2021-01-18
+*# [[Shaders]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/4]] 2021-01-18
+*# [[Refactor #1]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/5]] 2021-01-18
+*# [[Textures]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/6]] 2021-01-19
+*# [[Earth sphere with texture]] [X]  [[PR|https://github.com/jordanemedlock/universe_simulator/pull/7]] 2021-01-27
+*# [[Refactor #2]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/8]] 2021-02-01
+*# [[Move camera]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/9]] 2021-02-08
+*# [[Refactor #3]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/10]] 2021-03-05
+*# [[ECS]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/11]] 2021-03-19
+*# [[Text Rendering]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/12]] 2021-03-20
+*# [[Hack Terminal]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/13]] 2021-03-22
+*# [[Refactor #4]] [X] [[PR|https://github.com/jordanemedlock/universe_simulator/pull/13]] 2021-03-25
+*# [[Solar System]] [X] [[PR|]] 2021-04-05
+*# [[Model loader]] [_] [[PR|]] 2021-??-?? **FUCK**
+*# [[Add trees]]
+*# [[Refactor #2]]
+*# [[Animation]]
+*# [[Swaying trees]]
+*# [[Refactor #3]]
+*# [[Interaction]]
+*# [[Fixed PRNG]]
+*# [[Refactor #4]]
+*# [[Event System]]
+*# [[Random trees]]
+*# [[Refactor #5]]
+*# [[Scene System]]
+*# [[Google earth buildings]]
+*# [[Refactor #6]]
+*# [[Persistence]]
+*# [[Sector caching system]]
+*# [[Refactor #7]]
+*# [[Physics]]
+*# [[Scale math]]
+*# [[Refactor #8]]
+*# [[Collisions]]
+*# [[Water]]
+*# [[Refactor #9]]
+*# [[Utilities]]
+*# [[Smaller details]]
+*# [[Refactor #10]]
+*# [[Sounds]]
+*# [[Ambiance]]
+*# [[Refactor #11]]
+*# [[Utilities]]
+*# [[Other worlds]]
+*# [[Refactor #12]]
+*# [[Scene Editor]]
+*# [[More details]]
+*# [[Refactor #13]]
+*# [[VR]]
+*# [[VR world movement]]
+*# [[Refactor #14]]
+*# [[VR Interaction]]
+*# [[VR play]]
+*# [[Refactor #15]]
+*# [[VR Sound]]
+*# [[VR world generation]]
+*# [[Refactor #16]]
+*# [[Make Server (headless)]]
+*# [[World syncing]]
+*# [[Refactor #17]]
+*# [[UI Server Comm]]
+*# [[Refactor #18]]
+*# [[AI]]
+*# [[Refactor #19]]
+*# [[Debugging]]
+*# [[Refactor #20]]
+*# Padding... cuz, jesus
+
+
+
+//Strategy//
+
+# If it aint broke dont fix it
+# Make a branch and scrap it if it fails
+# Make a new &quot;Test&quot; every week
+# Every previous week should remain runnable
+# Always use a premade library when possible
+# Don't worry about cross platform support
+</pre>
 </div>
 <div bag="default" created="20201229032114657" modified="20201229032425704" revision="0" title="Entangle" type="text/vnd.tiddlywiki">
 <pre>//1st-level conjuration//
@@ -10348,6 +10437,17 @@ Scale {
 
 
 Simulation layers will only be calculated when the user is viewing the world at the given scale.  Or neighboring scales, but yeah.  </pre>
+</div>
+<div created="20210326183840198" modified="20210326184822385" title="Solar System">
+<pre>I want to make a [[bob|https://bobiverse.fandom.com/wiki/We_Are_Legion_(We_Are_Bob)_Wiki]] simulator.  
+
+I can start by making a solar system model.  
+
+* Sun (lighting shader)
+* Planets (randomly generated)
+* Orbits (also randomly generated)
+* Units (modular distance units, converting to orders of magnitude)
+* Interplanetary physics (for the space ship, aka camera)</pre>
 </div>
 <div bag="default" created="20201229020900592" modified="20201229030521271" revision="0" title="Spells" type="text/vnd.tiddlywiki">
 <pre>* [[Cantrips]]
